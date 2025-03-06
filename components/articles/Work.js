@@ -1,13 +1,17 @@
 import React from "react";
-import Image from "next/image";
 
 const Work = () => {
     return (
         <>
-            <h2 className="major">Work</h2>
-            <span className="image main"><Image src="/static/images/pic02.jpg" height={500} width={500} alt="" /></span>
-            <p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
-            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
+            <h1 className="major">Projects 💻</h1>
+            <h3>Sentiment Analysis Trading Bot</h3>
+            <p>Narrowly beat the S&P by -3.2%</p>
+            <h3>Figma Plugin</h3>
+            <p>Made pretty snowflakes in figma</p>
+            <h3>Reddit Search Query</h3>
+            <p>Used react.js to search reddit for cool stuff</p>
+            <h3>Diabetes Predictor</h3>
+            <p>Predicted diabetes and cured cancer</p>
         </>
     )
 }

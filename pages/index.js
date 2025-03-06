@@ -1,6 +1,5 @@
 import React, {useState, useEffect} from "react";
 import Head from "next/head"
-import stylesheet from 'styles/main.scss'
 
 import Header from "../components/Header"
 import Main from "../components/Main"
@@ -46,11 +45,9 @@ const IndexPage = () => {
         <div className={`body ${loading} ${isArticleVisible ? "is-article-visible" : ""}`}>
             <div>
                 <Head>
-                    <title>Next.js Starter</title>
+                    <title>Matthew Nguyen Portfolio</title>
                     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600,600i" rel="stylesheet" />
                 </Head>
-
-                <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
 
                 <div id="wrapper">
                     <Header onOpenArticle={handleOpenArticle} timeout={timeout} />
@@ -69,6 +66,5 @@ const IndexPage = () => {
         </div>
     );
 };
-
 
 export default IndexPage;

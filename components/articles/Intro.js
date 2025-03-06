@@ -4,10 +4,15 @@ import Image from "next/image";
 const Intro = () => {
     return (
         <>
-            <h2 className="major">Intro</h2>
-            <span className="image main"><Image src="/static/images/pic01.jpg" height={500} width={500} alt="" /></span>
-            <p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. By the way, check out my <a href="#work">awesome work</a>.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
+            <h1 className="major">About 🙋🏻‍♂️</h1>
+            {/* <span className="image main"><Image src="/static/images/matt1.jpg" height={500} width={500} alt="" /></span> */}
+            <p>Hi! I'm a third-year student at the University of Washington, Seattle, studying both Informatics (SDE) and Business (Operations Supply Chain). 
+                    I also work at <a href="https://www.washington.edu/research/compliance/" target="_blank">UW Research Compliance </a>
+                     and am the current Director of PR for <a href="https://uwifc.com" target="blank">UW IFC.</a>
+                </p>
+            <p>I'm highly experienced in research, data, marketing, full stack software development, database management, 
+                ML and AI et cetera. I'm also experienced in DJing. </p>
+            <p>The best way to contact me is through my email: <a href="mailto:mattcng9@uw.edu">mattcng9 (at) uw dot edu</a></p>
         </>
     )
 }

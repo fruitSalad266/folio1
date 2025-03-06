@@ -1,26 +1,43 @@
 import PropTypes from 'prop-types';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import faGem from '@fortawesome/fontawesome-free-regular/faGem'
+import mainIcon from '@fortawesome/fontawesome-free-regular/faLifeRing'
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 
 const Header = (props) => (
+
     <header id="header" style={props.timeout ? {display: 'none'} : {}}>
         <div className="logo">
-            {/*<span className="icon fa-diamond"></span>*/}
-            <FontAwesomeIcon icon={faGem} transform="grow-14" />
+            {/* <FontAwesomeIcon icon={mainIcon} transform="grow-63" className="hover-flip-icon"/> */}
+            <FontAwesomeIcon 
+                icon={mainIcon} 
+                transform="grow-63"
+                style={{
+                    transition: 'transform 0.8s ease'
+                }}
+                onMouseOver={(e) => e.currentTarget.style.transform = 'scaleX(-1)'}
+                onMouseOut={(e) => e.currentTarget.style.transform = ''}
+            />
         </div>
         <div className="content">
             <div className="inner">
-                <h1>Dimension</h1>
-                <p>A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<br />
-                for free under the <a href="https://html5up.net/license">Creative Commons</a> license.</p>
+                <h1>Matthew Nguyen</h1>
+                <p>Informatics and Business student at the <a href="https://uw.edu">University of Washington</a> </p>
+                <div className="social-icons" style={{marginTop: '-15px', marginBottom: '-15px'}}>
+                    <a href="https://www.linkedin.com/in/mattcng" target="_blank" rel="noopener noreferrer" style={{marginRight: '15px'}}>
+                        <FontAwesomeIcon icon={faLinkedin} size="2x" bounce/>
+                    </a>
+                    <a href="https://github.com/fruitsalad266" target="_blank" rel="noopener noreferrer">
+                        <FontAwesomeIcon icon={faGithub} size="2x" bounce/>
+                    </a>
+                </div>
             </div>
         </div>
         <nav>
             <ul>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('intro')}}>Intro</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('work')}}>Work</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('about')}}>About</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('contact')}}>Contact</a></li>
+                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('intro')}}>About</a></li>
+                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('work')}}>Projects</a></li>
+                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('about')}}>Experience</a></li>
+                {/* <li><a href="javascript:;" onClick={() => {props.onOpenArticle('contact')}}>Contact</a></li> */}
             </ul>
         </nav>
     </header>
