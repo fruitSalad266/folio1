@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from "react";
 import Head from "next/head"
+import {faIcon} from '@fortawesome/free-solid-svg-icons'
 
 import Header from "../components/Header"
 import Main from "../components/Main"
@@ -46,6 +47,7 @@ const IndexPage = () => {
             <div>
                 <Head>
                     <title>Matthew Nguyen Portfolio</title>
+                    <link rel="icon" type="image/x-icon" href="/static/images/favicon.ico"></link>
                     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600,600i" rel="stylesheet" />
                 </Head>
 

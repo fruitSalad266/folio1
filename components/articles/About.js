@@ -44,7 +44,7 @@ const About = () => {
             <h4 style={{marginTop: '-15px'}}>Head of Social Media</h4>
             <ul>
                 <li>Grew <a href="https://instagram.com/uwhuskytkd" target="_blank">Instagram</a> following from 600 to 900+ in 3 months of tenure</li>
-                <li>Directed, edited and shot a <a href="" target="_blank">recruitment video</a> reaching over 10k accounts and increasing club sign-ups by 80%</li>
+                <li>Directed, edited and shot a <a href="https://www.instagram.com/p/DAlSOZXg5o_/" target="_blank">recruitment video</a> reaching over 10k accounts and increasing club sign-ups by 80%</li>
             </ul>
             
         </>
