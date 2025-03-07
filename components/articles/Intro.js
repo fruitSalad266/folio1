@@ -26,6 +26,9 @@ const Intro = () => {
                 </li>
                 <li><b>SAT:</b> 1590</li>
             </ul>
+            <p>Courses I've taken at UW include Data Structures and Algorithms, Operations Management, Artificial Intelligence,
+                Product Design, Product Management, Data & Database Modeling, and Information Systems.
+            </p>
 
         </>
     )
