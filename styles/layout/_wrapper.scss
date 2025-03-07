@@ -26,6 +26,10 @@
 			padding: 3rem 2rem;
 		}
 
+		@include breakpoint(large) {
+			padding: 3rem 2rem;
+		}
+
 		@include breakpoint(small) {
 			padding: 2rem 1rem;
 		}
