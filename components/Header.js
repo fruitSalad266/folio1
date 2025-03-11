@@ -24,10 +24,10 @@ const Header = (props) => (
                 <p>Informatics and Business student at the <a href="https://uw.edu">University of Washington</a> </p>
                 <div className="social-icons" style={{marginTop: '-15px', marginBottom: '-15px'}}>
                     <a href="https://www.linkedin.com/in/mattcng" target="_blank" rel="noopener noreferrer" style={{marginRight: '15px'}}>
-                        <FontAwesomeIcon icon={faLinkedin} size="2x" bounce/>
+                        <FontAwesomeIcon icon={faLinkedin} size="2x" bounce style={{ animationDuration: '1.5s', animationDelay: '1s'}} />
                     </a>
                     <a href="https://github.com/fruitsalad266" target="_blank" rel="noopener noreferrer">
-                        <FontAwesomeIcon icon={faGithub} size="2x" bounce/>
+                        <FontAwesomeIcon icon={faGithub} size="2x" bounce style={{ animationDuration: '1.5s'}}/>
                     </a>
                 </div>
             </div>
