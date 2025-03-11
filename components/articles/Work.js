@@ -44,7 +44,7 @@ const Work = () => {
                 <FontAwesomeIcon icon={faGlobe} size="1x" />
             </a>
             </div> 
-            <p>Used react.js to search reddit for cool stuff</p>
+            <p>Used fastAPI, React and python Requests to search reddit for cool stuff</p>
 
             <div style={{ display: 'flex', alignItems: 'center' }}>
             <h3 style={{ marginRight: '10px', marginBottom: '0' }}>Diabetes Predictor</h3>
@@ -52,7 +52,14 @@ const Work = () => {
                 <FontAwesomeIcon icon={faGithub} size="1x" />
             </a>
             </div> 
-            <p>Predicted diabetes and cured cancer</p>
+            <p>My team and I trained three machine learning 
+                algorithms, <a href="https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm" 
+                target="_blank">k-NN,</a> <a href="https://en.wikipedia.org/wiki/Random_forest" 
+                target="_blank">Random Forest</a> and <a href="https://en.wikipedia.org/wiki/Logistic_regression" 
+                target="_blank">Logistic Regression</a> to 
+                predict whether or not an individual had diabetes based on a variety of biometric factors.
+                I also created a web-app for an interactive kNN plot that allows users to adjust the "k" as well as overall
+                sample size. </p>
         </>
     )
 }

@@ -20,7 +20,7 @@ const Intro = () => {
                 <li><b>Human Languages:</b> English, Vietnamese, Mandarin Chinese, Spanish</li>
                 <li><b>Tools:</b> Git, Pandas, Seaborn, plotly, scikit-learn, React, FastAPI, Next.JS, Node.JS, PyTorch, Jupyter, Agile framework, QuantConnect</li>
                 <li><b>Software: </b><a href="https://www.blackmagicdesign.com/products/davinciresolve" target="_blank"> Davinci Resolve</a>
-                    , Figma, Canva, Adobe Photoshop, Tableau, Excel</li>
+                    , Figma, Canva, Adobe Photoshop, Tableau, Excel, Microsoft Office Suite</li>
                 <li><b>Interests:</b> Data science, fullstack development, statistics, quantitative 
                 finance. <a href="https://en.wikipedia.org/wiki/Illenium" target="_blank">EDM</a>, College Football, weightlifting, game theory.
                 </li>
