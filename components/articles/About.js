@@ -21,7 +21,7 @@ const About = () => {
             <h3 style={{marginTop: '-15px'}}>UW Interfraternity Council</h3>
             <h4 style={{marginTop: '-15px'}}>Director of Public Relations</h4>
             <ul style={{marginTop: '-5px'}}>
-                <li>Represent 2,200+ Greek Men on social media <a href="https://instagram.com/uwifc" target="_blank">platforms </a> and ensure  
+                <li>Represent 2,200+ Greek Men on <a href="https://instagram.com/uwifc" target="_blank">social media</a> and ensure  
                     <a href="https://static1.squarespace.com/static/570ec8a48259b53bf09d3da4/t/57a013d0e3df28965b49a563/1470108625800/Theme%3AAdvertising+Statement.pdf" target="_blank"> policy</a> compliance
                 </li>
                 <li>Redesigned and maintained <a href="https://uwifc.com" target="_blank">official website</a> to drive recruitment numbers </li>
@@ -31,7 +31,7 @@ const About = () => {
             
             <h3 style={{marginTop: '-15px'}}><a href="https://montlakeconsulting.com" target="_blank">Montlake Consulting Group</a></h3>
             <h4 style={{marginTop: '-15px'}}>Consultant</h4>
-            <ul><li style={{marginTop: '-5px'}}>Work with clients on engagements to explore  niche markets through data analysis</li></ul>
+            <ul><li style={{marginTop: '-5px'}}>Use data to gain insights on niche markets for clients</li></ul>
 
             <h3 style={{marginTop: '-15px'}}>Pi Kappa Alpha Fraternity</h3>
             <h4 style={{marginTop: '-15px'}}>Head of Public Relations</h4>

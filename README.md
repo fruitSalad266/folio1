@@ -1,6 +1,11 @@
-# My Portfolio
+# Matthew Nguyen's Portfolio
+This portfolio showcases my work. You can find a live version at (https://mattcng.com)
 Portfolio hosted on [vercel](https://vercel.com).
 
-Last updated March 6, 2025
+# Running Locally
+Download and extract. Use
+`npm run dev` 
+and force dependency installation until successful.
+
 
 Adapted from [this version](https://github.com/karkir0003/nextjs-dimension-template) of the Next.JS Dimension Template
