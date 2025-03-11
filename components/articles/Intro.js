@@ -16,7 +16,7 @@ const Intro = () => {
             <hr></hr>
             <h3>Fast Facts</h3>
             <ul>
-                <li><b>Computer Languages:</b> Python, Java, JavaScript, C++, Bash, TypeScript, HTML, SQL, R, JSX</li>
+                <li><b>Computer Languages:</b> Python, Java, JavaScript, C++, Bash, TypeScript, HTML, SQL, R, JSX, SCSS, LaTeX, Markdown</li>
                 <li><b>Human Languages:</b> English, Vietnamese, Mandarin Chinese, Spanish</li>
                 <li><b>Tools:</b> Git, Pandas, Seaborn, plotly, scikit-learn, React, FastAPI, Next.JS, Node.JS, PyTorch, Jupyter, Agile framework, QuantConnect</li>
                 <li><b>Software: </b><a href="https://www.blackmagicdesign.com/products/davinciresolve" target="_blank"> Davinci Resolve</a>
@@ -26,6 +26,7 @@ const Intro = () => {
                 </li>
                 <li><b>SAT:</b> 1590</li>
             </ul>
+            <p>I am open to learning any other (computer or otherwise) languages requested.</p>
             <p>Courses I've taken at UW include Data Structures and Algorithms, Operations Management, Artificial Intelligence,
                 Product Design, Product Management, Data & Database Modeling, and Information Systems.
             </p>

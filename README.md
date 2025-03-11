@@ -1,5 +1,5 @@
 # Matthew Nguyen's Portfolio
-This portfolio showcases my work. You can find a live version at (https://mattcng.com)
+This portfolio showcases my work, experiences, et cetera. You can find the live version at https://mattcng.com.
 Portfolio hosted on [vercel](https://vercel.com).
 
 # Running Locally
