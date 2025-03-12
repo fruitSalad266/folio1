@@ -26,9 +26,8 @@ const experienceData = [
       period: "2025 - Present",
       description: 'Represent 2,200+ Greek Men on social media and ensure policy compliance',
       achievements: [
-        "Launched 3 major products",
-        "Reduced bug count by 45%",
-        "Improved team productivity"
+        "Redesigned and maintained official website to drive recruitment numbers",
+        "Won an award for best IFC website"
       ],
       link: "https://companya.com"
     },
@@ -38,11 +37,9 @@ const experienceData = [
       logo: "/static/images/mcg1.png", // Replace with your actual logo path
       role: "Consultant",
       period: "2024 - Present",
-      description: "Developed and maintained multiple web applications using React, Node.js, and MongoDB.",
+      description: "Consultant for clients",
       achievements: [
-        "Created company's first mobile-responsive website",
-        "Implemented authentication system",
-        "Optimized database queries reducing load time by 50%"
+        "Present data-driven insights on niche markets in engagements"
       ],
       link: "https://companyb.com"
     },
@@ -52,11 +49,9 @@ const experienceData = [
         logo: "/static/images/pike1.png", // Replace with your actual logo path
         role: "Head of Public Relations",
         period: "2024 - Present",
-        description: "Started career building front-end components and learning backend technologies.",
+        description: "Represent the fraternity online",
         achievements: [
-          "Contributed to 5 production projects",
-          "Built reusable component library",
-          "Learned CI/CD pipeline implementation"
+          "Successfully drove campaigns for recruitment and on-campus awareness"
         ],
         link: "https://companyc.com"
     },
@@ -66,11 +61,10 @@ const experienceData = [
       logo: "/static/images/htkd1.png", // Replace with your actual logo path
       role: "Social Media",
       period: "2024",
-      description: "Started career building front-end components and learning backend technologies.",
+      description: "Managed social media accounts totaling 1k+ followers",
       achievements: [
-        "Contributed to 5 production projects",
-        "Built reusable component library",
-        "Learned CI/CD pipeline implementation"
+        "Grew Instagram following from 600 to 900+ in 3 months of tenure",
+        "Directed, edited and shot a recruitment video reaching over 10k accounts and increasing club sign-ups by 93%"
       ],
       link: "https://companyc.com"
     }
@@ -108,7 +102,7 @@ const Contact = () => {
 
     return (
         <div className="experiences-container">
-        <h1>Experiences</h1>
+        <h1 className="major">Experience 📝</h1>
         <p>You can access my full resume by <a href="mailto:mattcng9@uw.edu">emailing me</a></p>
         <p style={{marginTop: '-35px'}}><i>This is also the best way to get more information on my current positions</i></p>
         
