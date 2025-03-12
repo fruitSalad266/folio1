@@ -4,8 +4,6 @@ import Intro from './articles/Intro';
 import About from "./articles/About";
 import Work from "./articles/Work";
 import Contact from "./articles/Contact";
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {faTwitter, faFacebook, faInstagram, faGithub} from '@fortawesome/fontawesome-free-brands';
 
 const Main = (props) => {
   let close = <div className="close" onClick={() => {props.onCloseArticle()}}></div>
@@ -55,7 +53,7 @@ const Main = (props) => {
         </article>
 
         <article id="contact" className={`${props.article === 'contact' ? 'active' : ''} ${props.articleTimeout ? 'timeout' : ''}`} 
-                style={{display:'none', position: 'relative', zIndex: 2}}>
+                style={{display:'none', position: 'relative', zIndex: 2, width: '45rem'}}>
           <Contact/>
           {close}
         </article>

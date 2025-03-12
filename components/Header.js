@@ -21,7 +21,7 @@ const Header = (props) => (
         <div className="content">
             <div className="inner">
                 <h1>Matthew Nguyen</h1>
-                <p>Informatics + Business at the <a href="https://uw.edu">University of Wasington, Seattle</a></p>
+                <p>Informatics + Business at the <a href="https://uw.edu">University of Washington, Seattle</a></p>
                 <div className="social-icons" style={{marginTop: '-15px', marginBottom: '-15px'}}>
                     <a href="https://www.linkedin.com/in/mattcng" target="_blank" rel="noopener noreferrer" style={{marginRight: '15px'}}>
                         <FontAwesomeIcon icon={faLinkedin} size="2x" bounce style={{ animationDuration: '1.5s', animationDelay: '0.5s'}} />
@@ -37,7 +37,7 @@ const Header = (props) => (
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('intro')}}>About</a></li>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('work')}}>Projects</a></li>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('about')}}>Experience</a></li>
-                {/* <li><a href="javascript:;" onClick={() => {props.onOpenArticle('contact')}}>Contact</a></li> */}
+                {/* <li><a href="javascript:;" onClick={() => {props.onOpenArticle('contact')}}>Experience2</a></li> */}
             </ul>
         </nav>
     </header>
