@@ -24,16 +24,16 @@ const experienceData = [
       logo: "/static/images/ifc3.png", // Replace with your actual logo path
       role: "Director of Public Relations",
       period: "2025 - Present",
-      description: 'Represent 2,200+ Greek Men on social media and ensure policy compliance',
+      description: 'Represent 2,200+ Greek Men on <a href="https://instagram.com/uwifc" target="_blank">social media</a> and ensure policy compliance',
       achievements: [
-        "Redesigned and maintained official website to drive recruitment numbers",
-        "Won an award for best IFC website"
+        'Redesigned and maintained official <a href="https://uwifc.com" target="_blank">official website</a> to drive recruitment numbers',
+        'Won an <a href="https://aflv.org/award-winners#mms" target="_blank">award</a> for best IFC website'
       ],
       link: "https://companya.com"
     },
     {
       id: 3,
-      name: "Montlake Consulting Group",
+      name: '<a href="https://montlakeconsulting.com" target="_blank">Montlake Consulting Group</a>',
       logo: "/static/images/mcg1.png", // Replace with your actual logo path
       role: "Consultant",
       period: "2024 - Present",
@@ -49,7 +49,7 @@ const experienceData = [
         logo: "/static/images/pike1.png", // Replace with your actual logo path
         role: "Head of Public Relations",
         period: "2024 - Present",
-        description: "Represent the fraternity online",
+        description: 'Represent the fraternity <a href="https://instagram.com/uwpike" target="_blank">online</a>',
         achievements: [
           "Successfully drove campaigns for recruitment and on-campus awareness"
         ],
@@ -57,14 +57,14 @@ const experienceData = [
     },
     {
       id: 5,
-      name: "HTKD",
+      name: "Husky Taekwondo",
       logo: "/static/images/htkd1.png", // Replace with your actual logo path
       role: "Social Media",
       period: "2024",
       description: "Managed social media accounts totaling 1k+ followers",
       achievements: [
-        "Grew Instagram following from 600 to 900+ in 3 months of tenure",
-        "Directed, edited and shot a recruitment video reaching over 10k accounts and increasing club sign-ups by 93%"
+        'Grew <a href="https://instagram.com/uwhuskytkd" target="_blank">Instagram</a> following from 600 to 900+ in 3 months of tenure',
+        'Directed, edited and shot a recruitment <a href="https://www.instagram.com/p/DAlSOZXg5o_/" target="_blank">recruitment video</a> reaching over 10k accounts and increasing club sign-ups by 93%'
       ],
       link: "https://companyc.com"
     }
@@ -163,15 +163,17 @@ const Contact = () => {
             {experienceData.filter(exp => exp.id === selectedExperience).map(experience => (
               <div key={experience.id}>
                 <div>
-                  <h2 style={{letterSpacing: 'normal'}}>{experience.name}</h2>
+                  {/* <h2 style={{letterSpacing: 'normal'}}>{experience.name}</h2> */}
+                  <h2  style={{letterSpacing: 'normal'}} dangerouslySetInnerHTML={{ __html: experience.name }}></h2>
                   <h3 style={{marginTop: '-15px'}}>{experience.role}</h3>
                   <p style={{marginTop: '-15px'}}><i>{experience.period}</i></p>
-                  <p>{experience.description}</p>
+
+                  <p dangerouslySetInnerHTML={{ __html: experience.description }}></p>
                   
                   <h4>Key Achievements:</h4>
                   <ul>
                     {experience.achievements.map((achievement, index) => (
-                      <li key={index}>{achievement}</li>
+                        <li key={index} dangerouslySetInnerHTML={{ __html: achievement }}></li>
                     ))}
                   </ul>
                 </div>
