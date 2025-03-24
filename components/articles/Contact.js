@@ -7,7 +7,7 @@ const experienceData = [
         id: 1,
         name: "UW Research Compliance",
         logo: "/static/images/uw3.png", // Replace with your actual logo path
-        role: "Data Analyst",
+        role: "Systems & Data Analyst",
         period: "2023 - Present",
         description: "Conduct data analysis in support of Invoicing, AR, and budget teams",
         achievements: [
@@ -64,7 +64,7 @@ const experienceData = [
       description: "Managed social media accounts totaling 1k+ followers",
       achievements: [
         'Grew <a href="https://instagram.com/uwhuskytkd" target="_blank">Instagram</a> following from 600 to 900+ in 3 months of tenure',
-        'Directed, edited and shot a recruitment <a href="https://www.instagram.com/p/DAlSOZXg5o_/" target="_blank">recruitment video</a> reaching over 10k accounts and increasing club sign-ups by 93%'
+        'Directed, edited and shot a <a href="https://www.instagram.com/p/DAlSOZXg5o_/" target="_blank">recruitment video</a> reaching over 10k accounts and increasing club sign-ups by 93%'
       ],
       link: "https://companyc.com"
     }
