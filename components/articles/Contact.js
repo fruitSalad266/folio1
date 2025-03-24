@@ -26,7 +26,7 @@ const experienceData = [
       period: "2025 - Present",
       description: 'Represent 2,200+ Greek Men on <a href="https://instagram.com/uwifc" target="_blank">social media</a> and ensure policy compliance',
       achievements: [
-        'Redesigned and maintained official <a href="https://uwifc.com" target="_blank">official website</a> to drive recruitment numbers',
+        'Redesigned and maintained <a href="https://uwifc.com" target="_blank">official website</a> to drive recruitment numbers',
         'Won an <a href="https://aflv.org/award-winners#mms" target="_blank">award</a> for best IFC website'
       ],
       link: "https://companya.com"

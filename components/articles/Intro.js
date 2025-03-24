@@ -10,7 +10,7 @@ const Intro = () => {
                     I also work at <a href="https://www.washington.edu/research/compliance/" target="_blank">UW Research Compliance </a>
                      as a data analyst and am the current Director of PR for <a href="https://uwifc.com" target="blank">UW IFC.</a>
                 </p>
-            <p>I'm highly experienced in research, data, marketing, full stack software development, database management, 
+            <p>I'm highly experienced in research, data analysis/collection, marketing (graphic design, social media and promotional videos), full stack software development, database management, 
                 ML and AI et cetera. I'm also experienced in DJing. </p>
             <p>The best way to contact me is through my email: <a href="mailto:mattcng9@uw.edu">mattcng9 (at) uw dot edu</a></p>
             
@@ -25,7 +25,9 @@ const Intro = () => {
                 <li><b>Software: </b><a href="https://www.blackmagicdesign.com/products/davinciresolve" target="_blank"> Davinci Resolve</a>
                     , Figma, Canva, Adobe Photoshop, Tableau, Excel, Microsoft Office Suite</li>
                 <li><b>Interests:</b> Data science, fullstack development, statistics, quantitative 
-                finance. <a href="https://en.wikipedia.org/wiki/Illenium" target="_blank">EDM</a>, College Football, weightlifting, game theory.
+                finance, fintech, defense applications, graphic 
+                design. <br></br><a href="https://en.wikipedia.org/wiki/Illenium" target="_blank">EDM</a>, College Football, 
+                weightlifting, game theory, Taekwondo, cooking.
                 </li>
                 <li><b>SAT:</b> 1590</li>
             </ul>
