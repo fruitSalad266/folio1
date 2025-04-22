@@ -12,6 +12,7 @@ const Intro = () => {
                 </p>
             <p>I'm highly experienced in research, data analysis/collection, marketing (graphic design, social media and promotional videos), full stack software development, database management, 
                 ML and AI et cetera. I'm also experienced in DJing. </p>
+            <p>This summer I will be working at <a href="https://en.wikipedia.org/wiki/Amazon_(company)" target="_blank">Amazon</a> Bellevue</p>
             <p>The best way to contact me is through my email: <a href="mailto:mattcng9@uw.edu">mattcng9 (at) uw dot edu</a></p>
             
             <hr style={{marginTop: '-15px'}}></hr>
