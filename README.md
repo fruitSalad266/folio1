@@ -5,7 +5,7 @@ Portfolio hosted on [vercel](https://vercel.com).
 # Running Locally
 Download and extract. Use
 `npm run dev` 
-and force dependency installation until successful.
+and force dependency installation until successful. Alternatively, you can use "best practices" where applicable. Mileage may vary.
 
 # Attributions
 Trademarked logos are properties of their respective owners, et cetera.
